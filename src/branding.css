@@ -1,0 +1,224 @@
+.branding-section {
+  height: fit-content;
+  width: 100%;
+  background-color: #fdd368;
+}
+
+.branding-container {
+  width: 970px;
+  min-height: 700px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 268px 15px 30px;
+}
+
+.branding-title {
+  display: none;
+}
+
+.branding-section h2 {
+  width: 650px;
+  font-size: 42px;
+  margin: 0 0 10px;
+  color: #292e34;
+  line-height: rem;
+  font-weight: 600;
+}
+
+.branding-section p {
+  width: 600px;
+  height: 100px;
+  font-size: 18px;
+  opacity: 0.5;
+  line-height: 1.5rem;
+  margin: 0 0 30px;
+}
+
+.branding-section a {
+  border: none;
+}
+
+.branding-section button {
+  padding: 20px 50px;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  border-radius: 100px;
+  background: linear-gradient(0deg, #131517 0, #353c44);
+  cursor: pointer;
+}
+
+@media (max-width: 1400px) {
+  .branding-container {
+    width: 820px;
+    padding: 275px 15px 188px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .branding-title {
+    display: block;
+    font-weight: 700;
+    font-size: 80px;
+    text-transform: uppercase;
+    margin: 0 0 48px 0;
+  }
+
+  .branding-identity {
+    color: #fff;
+    margin-right: 5px;
+  }
+
+  .branding-mark {
+    position: relative;
+  }
+
+  .branding-mark::after {
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    content: "";
+    background-image: url(/brush-fill.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: -36px;
+  }
+
+  .branding-section h2 {
+    width: 560px;
+    font-size: 36px;
+  }
+
+  .branding-section p {
+    height: fit-content;
+    width: 550px;
+    margin-bottom: 90px;
+  }
+}
+
+@media (max-width: 992px) {
+  .branding-container {
+    width: 660px;
+  }
+
+  .branding-title {
+    font-size: 70px;
+    margin: 0 0 48px 0;
+  }
+
+  .branding-mark::after {
+    width: 28px;
+    height: 28px;
+    right: -36px;
+  }
+
+  .branding-section h2 {
+    width: 500px;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  .branding-section p {
+    width: 550px;
+    margin-bottom: 65px;
+  }
+}
+
+@media (max-width: 768px) {
+  .branding-container {
+    width: 500px;
+    padding: 165px 15px 170px;
+    text-align: start;
+    align-items: flex-start;
+  }
+
+  .branding-title {
+    display: flex;
+    flex-direction: column;
+    font-size: 100px;
+    margin: 0 0 48px 0;
+    gap: 10px;
+  }
+
+  .branding-mark::after {
+    width: 28px;
+    height: 28px;
+    right: -36px;
+  }
+
+  .branding-section h2 {
+    width: 470px;
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+
+  .branding-section p {
+    width: 400px;
+    font-size: 20px;
+    line-height: 2rem;
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 550px) {
+  .branding-container {
+    width: 100%;
+    padding: 126px 15px 136px;
+  }
+
+  .branding-title {
+    font-size: 80px;
+  }
+
+  .branding-mark::after {
+    width: 32px;
+    height: 32px;
+  }
+
+  .branding-section h2 {
+    width: 100%;
+    font-size: 23px;
+    margin-bottom: 20px;
+  }
+
+  .branding-section p {
+    width: 100%;
+    font-size: 16px;
+    line-height: 1.5rem;
+    margin-bottom: 42px;
+  }
+
+  .branding-btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .branding-btn button {
+    padding: 18px 42px;
+  }
+}
+
+@media (max-width: 410px) {
+  .branding-title {
+    font-size: 70px;
+  }
+}
+
+@media (max-width: 365px) {
+  .branding-title {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 320px) {
+  .branding-title {
+    font-size: 50px;
+  }
+}
